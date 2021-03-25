@@ -11,3 +11,5 @@ Make sure you have the requirements to install MkDocs if not installed already (
 To view the documentation on local server
 
     mkdocs serve
+
+You can also check it out deployed in github pages [here](https://atos-flor-barbosa.github.io/test-mkdocs/)
