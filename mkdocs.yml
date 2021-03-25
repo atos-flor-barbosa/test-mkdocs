@@ -1,0 +1,8 @@
+site_name: Testing MkDocs
+nav:
+    - Home: index.md
+    - Add pages: add.md
+    - Themes: theme.md
+
+theme: 
+  name: material
