@@ -1,19 +1,21 @@
-# MkDocs
+# [MkDocs](https://www.mkdocs.org)
 
 This was made with the purpose of checking out how MkDocs works and how to create new pages, style and theme it, etc.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> If your index is long enough to be more than one page in the PDF, the plugin will add a blank page at the start, it is an open issue.
+## Contents
+### [Installation](installation.md)
+### User Guide
 
-## Commands
+  * [Add pages](user-guide/add.md)
+  * [Multilevel](user-guide/multilevel.md)
+  * [Commands](user-guide/commands.md)
+  
+### [Themes](theme.md)
+### [Deploy to Github pages](gh-pages.md)
+### [Export to PDF](pdf-export.md)
+### About
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+  * [License](about/license.md)
+  * [Release Notes](about/release-notes.md)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

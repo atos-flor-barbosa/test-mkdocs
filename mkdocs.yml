@@ -1,8 +1,29 @@
 site_name: Testing MkDocs
 nav:
     - Home: index.md
-    - Add pages: add.md
+    - Installation: installation.md
+    - User Guide:
+        - 'Add pages': user-guide/add.md
+        - 'Multilevel': user-guide/multilevel.md
+        - 'Commands': user-guide/commands.md
     - Themes: theme.md
+    - Github pages: gh-pages.md
+    - Export to PDF: pdf-export.md
+    - About: 
+        - 'License': about/license.md
+        - 'Release Notes': about/release-notes.md
+    
 
 theme: 
   name: material
+
+plugins:
+  - search
+  - pdf-export:
+      # Enable the generation of the pdf file with everything
+      combined: true
+      # Specify the path for the pdf file that contains everything
+      combined_output_path: docs/all-documentation.pdf
+      media_type: print 
+
+repo_url: https://github.com/atos-flor-barbosa/test-mkdocs
